@@ -1,11 +1,11 @@
 import React from "react";
 
 const EventComponent:React.FC = () => {
-    const onChange=(event: React.ChangeEventHandler<HTMLInputElement>)=>{
+    const onChange=(event: React.ChangeEvent<HTMLInputElement>)=>{
         console.log(event)
     }
 
-    const onDragStart = (event: React.DragEventHandler<HTMLDivElement>)=>{
+    const onDragStart = (event: React.DragEvent<HTMLDivElement>)=>{
         console.log(event);
     }
 
